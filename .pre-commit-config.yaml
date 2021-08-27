@@ -1,7 +1,4 @@
 ## Pre-commit setup
-# See https://github.com/python-discord/code-jam-template/tree/main#pre-commit-run-linting-before-committing
-
-# Make sure to edit the `additional_dependencies` list if you want to add plugins
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
