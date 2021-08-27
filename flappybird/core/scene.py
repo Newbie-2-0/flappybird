@@ -72,19 +72,19 @@ class GameScene(Scene):
 
     def run(self) -> None:
         """Called after manager is added to the scene."""
-        pass
+        raise NotImplementedError
 
     def render(self, screen: pygame.Surface) -> None:
         """Render the scene."""
-        pass
+        raise NotImplementedError
 
     def update(self) -> None:
         """Update the scene."""
-        pass
+        raise NotImplementedError
 
     def handle_events(self, events: Event) -> None:
         """Handle event for the scene."""
-        pass
+        raise NotImplementedError
 
 
 class LeaderboardScene(object):
