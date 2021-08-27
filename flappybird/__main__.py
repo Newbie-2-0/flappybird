@@ -4,14 +4,12 @@ from pygame.constants import QUIT
 from flappybird.core.scene import SceneMananger
 
 DISPLAY = (600, 400)
-DEPTH = 0
-FLAGS = 0
 
 
 def main() -> None:
     """Start the main game."""
     pygame.init()
-    screen = pygame.display.set_mode(DISPLAY, FLAGS, DEPTH)
+    screen = pygame.display.set_mode(DISPLAY)
     pygame.display.set_caption("Flappy Bird")
     timer = pygame.time.Clock()
     running = True
