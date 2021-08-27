@@ -12,4 +12,4 @@ flake8-docstrings~=1.5
 flake8-isort~=4.0
 
 # project
-
+pygame~=2.0.1
