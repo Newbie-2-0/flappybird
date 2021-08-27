@@ -12,7 +12,7 @@ def main() -> None:
     """Start the main game."""
     pygame.init()
     screen = pygame.display.set_mode(DISPLAY, FLAGS, DEPTH)
-    pygame.display.set_caption("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+    pygame.display.set_caption("Flappy Bird")
     timer = pygame.time.Clock()
     running = True
 
